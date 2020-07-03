@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">FerreteriaApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="textViewNombreProducto">Nombre Producto</string>
+    <string name="textViewDescripcionProducto">Descripcion Producto</string>
+    <string name="textViewHintProducto">Ingrese Producto</string>
+    <string name="textViewHintDescripcion">Ingrese descripcion</string>
+    <string name="textViewInventarioMinimoProducto">Inventario Minimo</string>
+    <string name="textViewHintInventarioMinimo">Inventario</string>
+    <string name="textViewStockCajaProducto">Stock x Cajas</string>
+    <string name="textViewProductoCodigo">Producto Codigo</string>
+    <string name="textViewHintProductoCodigo">Producto</string>
+    <string name="textViewStockUnidadProducto">Stock x Unidad /Caja </string>
+    <string name="textViewLoteCodigo">Lote Codigo</string>
+    <string name="textViewHintLoteCodigo">Lote</string>
+    <string name="textViewColorProducto">Color del Producto</string>
+    <string name="textViewHintColor">Ingrese del Color</string>
+    <string name="textViewMedidaProducto">Medida del Producto</string>
+    <string name="textViewHintMedida">Ingrese Medida</string>
+    <string name="str_btn_registro_prod">Registrar Producto</string>
+    <string name="textViewPrecioEntrada">Precio de Entrada</string>
+    <string name="textViewHintPrecioEntrada">Precio de Entrada</string>
+    <string name="textViewSalidaProducto">Precio de Salida</string>
+    <string name="textViewHintPrecioSalida">Salida de Precio</string>
+
+    <string name="campos_vacios">No hay Items</string>
+</resources>

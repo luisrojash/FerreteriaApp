@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/progressBar"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:SpinKit_Color="@color/colorAccent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewNombreProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/textViewNombreProducto"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextNombreProducto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:hint="@string/textViewHintProducto"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textViewNombreProducto"
+                app:layout_constraintTop_toBottomOf="@+id/textViewNombreProducto" />
+
+
+            <TextView
+                android:id="@+id/textViewDescripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/textViewDescripcionProducto"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/textViewNombreProducto"
+                app:layout_constraintTop_toBottomOf="@+id/editTextNombreProducto" />
+
+
+            <EditText
+                android:id="@+id/editTextDescripcionProducto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:hint="@string/textViewHintDescripcion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewNombreProducto"
+                app:layout_constraintTop_toBottomOf="@+id/textViewDescripcion" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideLinePrimero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <Button
+                android:id="@+id/buttonFoto"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:drawableStart="@drawable/ic_menu_camera"
+                android:drawableLeft="@drawable/ic_menu_camera"
+                android:text="0 Fotos"
+                app:layout_constraintBottom_toBottomOf="@+id/editTextInventarioMinimoProducto"
+                app:layout_constraintEnd_toStartOf="@+id/guideLinePrimero"
+                app:layout_constraintStart_toStartOf="@+id/editTextDescripcionProducto"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDescripcionProducto" />
+
+
+            <TextView
+                android:id="@+id/textViewInventarioMinimo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="@string/textViewInventarioMinimoProducto"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/guideLinePrimero"
+                app:layout_constraintTop_toBottomOf="@+id/editTextDescripcionProducto" />
+
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/editTextInventarioMinimoProducto"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/textViewHintInventarioMinimo"
+                app:layout_constraintEnd_toEndOf="@+id/editTextDescripcionProducto"
+                app:layout_constraintStart_toStartOf="@+id/textViewInventarioMinimo"
+                app:layout_constraintTop_toBottomOf="@+id/textViewInventarioMinimo" />
+
+
+            <TextView
+                android:id="@+id/textViewStockCaja"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/textViewStockCajaProducto"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/buttonFoto"
+                app:layout_constraintTop_toBottomOf="@+id/buttonFoto" />
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/buttonCajas"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Stock Caja"
+                app:layout_constraintBottom_toBottomOf="@+id/editTextProductoCodigo"
+                app:layout_constraintEnd_toEndOf="@+id/buttonFoto"
+                app:layout_constraintStart_toStartOf="@+id/textViewStockCaja"
+                app:layout_constraintTop_toBottomOf="@+id/textViewStockCaja" />
+
+
+            <TextView
+                android:id="@+id/textViewProductoCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/textViewProductoCodigo"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/guideLinePrimero"
+                app:layout_constraintTop_toBottomOf="@+id/editTextInventarioMinimoProducto" />
+
+            <EditText
+                android:id="@+id/editTextProductoCodigo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/textViewHintProductoCodigo"
+                app:layout_constraintEnd_toEndOf="@+id/editTextDescripcionProducto"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewInventarioMinimo"
+                app:layout_constraintTop_toBottomOf="@+id/textViewProductoCodigo" />
+
+
+            <TextView
+                android:id="@+id/textViewStockUnidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/textViewStockUnidadProducto"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/buttonFoto"
+                app:layout_constraintTop_toBottomOf="@+id/buttonCajas" />
+
+            <Button
+                android:id="@+id/buttonUnidad"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                app:layout_constraintEnd_toEndOf="@+id/buttonFoto"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewStockCaja"
+                app:layout_constraintTop_toBottomOf="@+id/textViewStockUnidad" />
+
+
+            <TextView
+                android:id="@+id/textViewLoteCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/textViewLoteCodigo"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/editTextProductoCodigo"
+                app:layout_constraintTop_toBottomOf="@+id/editTextProductoCodigo" />
+
+            <EditText
+                android:id="@+id/editTextLoteCodigo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/textViewHintLoteCodigo"
+                app:layout_constraintEnd_toEndOf="@+id/editTextDescripcionProducto"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewInventarioMinimo"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLoteCodigo" />
+
+
+            <TextView
+                android:id="@+id/textViewSalidaProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewSalidaProducto"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/editTextProductoCodigo"
+                app:layout_constraintTop_toTopOf="@+id/textViewPrecioEntrada" />
+
+
+            <EditText
+                android:id="@+id/editTextPrecioSalida"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/textViewHintPrecioSalida"
+                app:layout_constraintEnd_toEndOf="@+id/editTextLoteCodigo"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewSalidaProducto"
+                app:layout_constraintTop_toBottomOf="@+id/textViewSalidaProducto" />
+
+
+            <TextView
+                android:inputType="number"
+                android:id="@+id/textViewPrecioEntrada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/textViewPrecioEntrada"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/buttonFoto"
+                app:layout_constraintTop_toBottomOf="@+id/buttonUnidad" />
+
+
+            <EditText
+                android:inputType="number"
+                android:id="@+id/editTextPrecioEntrada"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/textViewHintPrecioEntrada"
+                app:layout_constraintEnd_toEndOf="@+id/buttonCajas"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewPrecioEntrada"
+                app:layout_constraintTop_toBottomOf="@+id/textViewPrecioEntrada" />
+
+
+            <TextView
+                android:id="@+id/textViewColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/textViewColorProducto"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/textViewNombreProducto"
+                app:layout_constraintTop_toBottomOf="@+id/editTextPrecioEntrada" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextviewColor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:hint="@string/textViewHintColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewNombreProducto"
+                app:layout_constraintTop_toBottomOf="@+id/textViewColor" />
+
+
+            <TextView
+                android:id="@+id/textViewMedida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/textViewMedidaProducto"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/textViewNombreProducto"
+                app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextviewColor" />
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextviewMedida"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginRight="24dp"
+                android:hint="@string/textViewHintMedida"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/textViewNombreProducto"
+                app:layout_constraintTop_toBottomOf="@+id/textViewMedida" />
+
+
+            <TextView
+                android:id="@+id/textViewAlmacen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Almacen"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/autoCompleteTextviewMedida"
+                app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextviewMedida" />
+
+            <Spinner
+                android:id="@+id/spinnerAlmacen"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                app:layout_constraintEnd_toEndOf="@+id/autoCompleteTextviewMedida"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/autoCompleteTextviewMedida"
+                app:layout_constraintTop_toBottomOf="@+id/textViewAlmacen" />
+
+
+            <TextView
+                android:id="@+id/textViewMaterial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Material"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/spinnerAlmacen"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerAlmacen" />
+
+            <Spinner
+                android:id="@+id/spinnerMaterial"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerAlmacen"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/spinnerAlmacen"
+                app:layout_constraintTop_toBottomOf="@+id/textViewMaterial" />
+
+
+            <Spinner
+                android:id="@+id/spinnerSuperficie"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerMaterial"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/spinnerMaterial"
+                app:layout_constraintTop_toBottomOf="@+id/textViewSuperficie" />
+
+
+            <TextView
+                android:id="@+id/textViewSuperficie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Superficie"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/spinnerMaterial"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerMaterial" />
+
+            <Spinner
+                android:id="@+id/spinnerMarca"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerSuperficie"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/spinnerSuperficie"
+                app:layout_constraintTop_toBottomOf="@+id/textViewMarca" />
+
+
+            <TextView
+                android:id="@+id/textViewMarca"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marca"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/spinnerSuperficie"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerSuperficie" />
+
+
+
+            <TextView
+                android:id="@+id/textViewCategoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Categoria"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/spinnerMarca"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerMarca" />
+
+            <Spinner
+                android:id="@+id/spinnerCategoria"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerMarca"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/spinnerMarca"
+                app:layout_constraintTop_toBottomOf="@+id/textViewCategoria" />
+
+
+            <TextView
+                android:id="@+id/textViewTipologia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Tipologia"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/spinnerCategoria"
+                app:layout_constraintTop_toBottomOf="@+id/spinnerCategoria" />
+
+            <Spinner
+                android:id="@+id/spinnerTipologia"
+                android:layout_width="0dp"
+                android:layout_height="34dp"
+                app:layout_constraintEnd_toEndOf="@+id/spinnerCategoria"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/spinnerCategoria"
+                app:layout_constraintTop_toBottomOf="@+id/textViewTipologia" />
+
+
+
+
+            <Button android:id="@+id/btnRegistrar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_btn_registro_prod"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" app:layout_constraintTop_toBottomOf="@+id/spinnerTipologia"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</layout>
+
+
+

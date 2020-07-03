@@ -1,0 +1,7 @@
+
+›%squid:RedundantThrowsDeclarationCheck3"jRemove the declaration of thrown exception 'java.lang.IllegalStateException' which is a runtime exception.(ïô–š
+`squid:S4201k"IRemove this unnecessary null check; "instanceof" returns false for nulls.(„ÿ¼Û
+Zsquid:S2387)"7"mRecyclerView" is the name of a field in "SnapHelper".(ƒê»çûÿÿÿÿ8íÖµÒÞ-
+zsquid:CallToDeprecatedMethod¹"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(€¤Þª8íÖµÒÞ-
+Ysquid:S1161¹":Add the "@Override" annotation above this method signature(€¤Þª8íÖµÒÞ-
+{squid:S2177ž"WRename this method; there is a "private" method in the parent class with the same name.(þŒœÇþÿÿÿÿ8íÖµÒÞ-

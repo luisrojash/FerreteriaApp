@@ -1,0 +1,2 @@
+include ':app', ':pagerlayoutmanager'
+rootProject.name='FerreteriaApp'

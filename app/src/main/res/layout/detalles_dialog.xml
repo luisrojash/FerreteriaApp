@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViewProducto"
+                    android:layout_width="0dp"
+                    android:layout_height="240dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="15dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:contentDescription="TODO"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/textViewNombreProducto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Nombre Producto"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/imageViewProducto" />
+
+                <TextView
+                    android:id="@+id/textViewDescripcionProducto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Descripcion Titulo"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewNombreProducto" />
+
+
+                <TextView
+                    android:id="@+id/textViewInventarioMinimo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Producto Inventario"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewDescripcionProducto" />
+
+
+                <TextView
+                    android:id="@+id/textViewPrecioEntrada"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Precio Entrada"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewInventarioMinimo" />
+
+                <TextView
+                    android:id="@+id/textViewPrecioSalida"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Precio Salida"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewPrecioEntrada" />
+
+
+                <TextView
+                    android:id="@+id/textViewProductoCodigo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Producto Codigo"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewPrecioSalida" />
+
+
+                <TextView
+                    android:id="@+id/textViewStockInicial"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Stock Inicial"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewProductoCodigo" />
+
+
+                <TextView
+                    android:id="@+id/textViewProveedor"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Marca Proveedor"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewStockInicial" />
+
+                <TextView
+                    android:id="@+id/textViewColor"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Color Nombre"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewProveedor" />
+
+
+                <TextView
+                    android:id="@+id/textViewCategoria"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Categoria Nombre"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewColor" />
+
+                <TextView
+                    android:id="@+id/textViewTipologia"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Tipologia Nombre"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewCategoria" />
+
+
+                <TextView
+                    android:id="@+id/textViewMaterial"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Material Nombre"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewTipologia" />
+
+                <TextView
+                    android:id="@+id/textViewSuperficie"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Superficie Nombre"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewMaterial" />
+
+
+                <TextView
+                    android:id="@+id/textViewLote"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Lote Nombre"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewSuperficie" />
+
+                <TextView
+                    android:id="@+id/textViewAlmacen"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="Almacen Nombre"
+                    android:textColor="@color/md_black_1000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/imageViewProducto"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/imageViewProducto"
+                    app:layout_constraintTop_toBottomOf="@+id/textViewLote" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</layout>

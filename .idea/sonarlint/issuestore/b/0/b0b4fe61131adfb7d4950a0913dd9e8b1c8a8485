@@ -1,0 +1,17 @@
+
+Msquid:S1905¤")Remove this unnecessary cast to "String".(Î€Ø±ùÿÿÿÿ8ˆ“¿â÷-
+msquid:S1192m"JDefine a constant instead of duplicating this literal "Exception" 8 times.(¸²¿êøÿÿÿÿ8ˆ“¿â÷-
+qsquid:MaximumInheritanceDepth%"<This class has 6 parents which is greater than 5 authorized.(¶Î­ûüÿÿÿÿ8¼¿ÚÃà-
+¥squid:S1186“"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×þÿÿÿÿ8ùÐÛØ‚.
+¥squid:S1186Á"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×þÿÿÿÿ8ùÐÛØ‚.
+osquid:CommentedOutCodeLine±"<This block of commented-out lines of code should be removed.(Â£ñàûÿÿÿÿ8ˆ“¿â÷-
+¥squid:S1186ü"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×þÿÿÿÿ8ùÐÛØ‚.
+Msquid:S1905›")Remove this unnecessary cast to "String".(’Ù¾›úÿÿÿÿ8ˆ“¿â÷-
+¥squid:S1186ª"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×þÿÿÿÿ8ùÐÛØ‚.
+ysquid:S1192ë"UDefine a constant instead of duplicating this literal "Producto Actualizado" 3 times.(°ÉÉÿÿÿÿÿ8‡õÛØ‚.
+zsquid:S1192÷"[Define a constant instead of duplicating this literal "Exeption spinnerSuperficie" 4 times.(£µœÙ8ùÐÛØ‚.
+nsquid:UselessImportCheck">Remove this unused import 'org.jetbrains.annotations.NotNull'.(éš®ïøÿÿÿÿ8ˆ“¿â÷-
+¥squid:S1186Í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×þÿÿÿÿ8ùÐÛØ‚.
+¥squid:S1186ä"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×þÿÿÿÿ8ùÐÛØ‚.
+msquid:UselessImportCheck"=Remove this unused import 'androidx.core.view.GravityCompat'.(…Ü…çÿÿÿÿÿ8ˆ“¿â÷-
+osquid:S1301ã"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8ùÐÛØ‚.

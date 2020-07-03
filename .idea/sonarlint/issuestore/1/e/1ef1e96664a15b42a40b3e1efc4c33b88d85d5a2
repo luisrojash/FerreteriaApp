@@ -1,0 +1,10 @@
+
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤½ªµ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ε¶ÿÿÿÿÿ
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ϋ α
+ssquid:S00116"VRename this field "material_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ΈΥÿώÿÿÿÿ
+wsquid:S00116"ZRename this field "material_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ν‡Ά¬ώÿÿÿÿ
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(―ήθ©
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤½ªµ
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ςΙώÿÿÿÿ
+ksquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ε¶ÿÿÿÿÿ

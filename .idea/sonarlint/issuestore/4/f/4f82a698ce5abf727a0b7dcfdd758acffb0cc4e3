@@ -1,0 +1,6 @@
+
+qsquid:MaximumInheritanceDepth5"<This class has 6 parents which is greater than 5 authorized.(ÿïÆùùÿÿÿÿ8Úİ¿ÏŞ-
+Nsquid:S1172Ÿ"/Remove this unused method parameter "activity".(“î¯¨8°àÓâ÷-
+]squid:S1155Š">Use isEmpty() to check whether the collection is empty or not.(•“ûõ8°àÓâ÷-
+€squid:UselessImportCheck "VRemove this unused import 'com.example.ferreteriaapp.operaciones.OperacionesActivity'.(Ûëú]8°àÓâ÷-
+isquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(àÌÕĞ8°àÓâ÷-

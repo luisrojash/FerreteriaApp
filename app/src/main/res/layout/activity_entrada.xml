@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/buttonNuevo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="NUEVO LOTE"
+            android:textColor="@color/md_white_1000"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/autoCompleteTextviewProducto"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttonEditar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:text="EDITAR LOTE"
+            android:textColor="@color/md_white_1000"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/autoCompleteTextviewProducto"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextviewProducto"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:completionThreshold="1"
+            android:drawablePadding="20dp"
+            android:hint="Escriba el Producto"
+            android:maxLines="3"
+            android:paddingLeft="8dp"
+            android:paddingTop="12dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="12dp"
+            android:textColor="@color/md_black_1000"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonNuevo" />
+
+
+        <TextView
+            android:id="@+id/textViewAlmacen"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Seleccione Almacen"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/spinnerAlmacen"
+            app:layout_constraintStart_toStartOf="@+id/spinnerAlmacen"
+            app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextviewProducto" />
+
+        <Spinner
+            android:id="@+id/spinnerAlmacen"
+            android:layout_width="0dp"
+            android:layout_height="34dp"
+            app:layout_constraintEnd_toEndOf="@+id/autoCompleteTextviewProducto"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/autoCompleteTextviewProducto"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAlmacen" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.5" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Escriba Lote"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/spinnerAlmacen"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerAlmacen" />
+
+        <AutoCompleteTextView
+            android:id="@+id/editTextLote"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:completionThreshold="1"
+            android:hint="Escriba Lote"
+            android:maxLines="3"
+            android:textColor="@color/md_black_1000"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/spinnerAlmacen"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+        <TextView
+            android:id="@+id/textViewCant"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="8dp"
+            android:text="Escriba Cajas Entrantes"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/editextCantidad"
+            app:layout_constraintStart_toStartOf="@+id/editextCantidad"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerAlmacen" />
+
+
+        <EditText
+            android:id="@+id/editextCantidad"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:autofillHints=""
+            android:hint="Escriba Cantidad"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/spinnerAlmacen"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toTopOf="@+id/editTextLote" />
+
+
+        <TextView
+            android:id="@+id/textViewStock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Stock Producto x Caja"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/editextProductoUnidad"
+            app:layout_constraintTop_toTopOf="@+id/textViewStoUnidad" />
+
+        <TextView
+            android:id="@+id/textViewCantidadUnidad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Unidades Entrantes"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="@+id/editTextLote"
+            app:layout_constraintTop_toBottomOf="@+id/editTextLote" />
+
+
+        <EditText
+            android:id="@+id/editextProductoUnidad"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:autofillHints=""
+            android:hint="Escriba Unidad"
+            android:inputType="number"
+            app:layout_constraintEnd_toStartOf="@+id/guideline3"
+            app:layout_constraintStart_toStartOf="@+id/textViewCantidadUnidad"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCantidadUnidad" />
+
+
+        <TextView
+            android:id="@+id/textViewMedidaDesp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Unidades x Cajas"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/fabAgregarItem"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/editextCantidad" />
+
+        <TextView
+            android:id="@+id/textViewMedidaDescripcion"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="0"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toStartOf="@+id/fabAgregarItem"
+            app:layout_constraintStart_toStartOf="@+id/textViewMedidaDesp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMedidaDesp" />
+
+
+        <TextView
+            android:id="@+id/textViewStockProducto"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="0"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/textViewStock"
+            app:layout_constraintStart_toStartOf="@+id/textViewStock"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStock" />
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fabAgregarItem"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/fab_add"
+            app:fabSize="mini"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editextCantidad" />
+
+
+        <TextView
+            android:id="@+id/textViewStoUnidad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="Unidades Sueltas"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMedidaDescripcion" />
+
+        <TextView
+            android:id="@+id/textViewStockUnidad"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="0"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/textViewStoUnidad"
+            app:layout_constraintStart_toStartOf="@+id/textViewStoUnidad"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStoUnidad" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/md_red_300"
+            android:text="   Entrada de productos"
+            android:textColor="@color/md_white_1000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStockProducto" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonAgregar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/buttonAgregar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Terminar Entrada"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,9 @@
+
+zsquid:S1450-"\Remove the "tipoOperacion" field and declare it as a local variable in the relevant methods.(·Ş«8ôûùá÷-
+¤squid:S1186n"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8ÇËˆ¡€.
+esquid:MaximumInheritanceDepth&"<This class has 6 parents which is greater than 5 authorized.(ùÈÒœ
+nsquid:S1301X"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8ÇËˆ¡€.
+|squid:S1192"XDefine a constant instead of duplicating this literal "buscarProductosUi : %s " 3 times.(áÊùÿÿÿÿ8ÇËˆ¡€.
+Msquid:S1068+"0Remove this unused "listaAlmacen" private field.(†Â%8¢·ğû-
+isquid:S1301B"KReplace this "switch" statement by "if" statements to increase readability.(Ø×âé8·ò‡¡€.
+osquid:CommentedOutCodeLineô"<This block of commented-out lines of code should be removed.(Ãı…¡üÿÿÿÿ8ÇËˆ¡€.

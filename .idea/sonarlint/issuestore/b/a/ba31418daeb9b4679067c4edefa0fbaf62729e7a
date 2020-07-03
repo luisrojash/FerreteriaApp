@@ -1,0 +1,5 @@
+
+wsquid:S2293Y"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºãûó8“‰“ÓÞ-
+‹squid:S1319X"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(¶êÖú8“‰“ÓÞ-
+rsquid:S00116"SRename this field "_context" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òº€²8“‰“ÓÞ-
+usquid:S00116"WRename this field "PRIVATE_MODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š™èo8“‰“ÓÞ-

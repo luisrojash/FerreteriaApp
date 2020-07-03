@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:minWidth="200dp"
+        android:minHeight="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:background="@color/md_white_1000">
+
+
+        <TextView
+            android:id="@+id/textViewEntrada"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="Entrada Producto"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewSalida"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Salida Producto"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewEntrada"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textViewEntrada"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEntrada" />
+
+        <TextView
+            android:id="@+id/devoluciones"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Devoluciones"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewSalida"
+            app:layout_constraintStart_toStartOf="@+id/textViewSalida"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSalida"></TextView>
+
+
+        <TextView
+            android:id="@+id/textViewCambios"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Cambios"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewSalida"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textViewSalida"
+            app:layout_constraintTop_toBottomOf="@+id/devoluciones"></TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

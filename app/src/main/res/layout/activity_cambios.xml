@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/autoEntrada"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@android:color/transparent"
+                android:completionThreshold="1"
+                android:drawablePadding="20dp"
+                android:hint="Escriba el Producto"
+                android:maxLines="3"
+                android:paddingLeft="8dp"
+                android:paddingTop="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="12dp"
+                android:textColor="@color/md_black_1000"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textViewAlmacen"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:text="Almacen"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/textViewLote"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="@+id/autoEntrada"
+                app:layout_constraintTop_toBottomOf="@+id/autoEntrada" />
+
+            <TextView
+                android:id="@+id/textViewLote"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Lote"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/autoEntrada"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/textViewAlmacen"
+                app:layout_constraintTop_toTopOf="@+id/textViewAlmacen" />
+
+
+            <AutoCompleteTextView
+                android:id="@+id/editTextLote"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:completionThreshold="1"
+                android:hint="Escriba Lote"
+                android:maxLines="3"
+                android:textColor="@color/md_black_1000"
+                app:layout_constraintEnd_toEndOf="@+id/autoEntrada"
+                app:layout_constraintStart_toStartOf="@+id/textViewLote"
+                app:layout_constraintTop_toBottomOf="@+id/textViewLote" />
+
+            <Spinner
+                android:id="@+id/spinnerAlmacen"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toBottomOf="@+id/editTextLote"
+                app:layout_constraintEnd_toEndOf="@+id/textViewAlmacen"
+                app:layout_constraintStart_toStartOf="@+id/textViewAlmacen"
+                app:layout_constraintTop_toBottomOf="@+id/textViewAlmacen" />
+
+            <Button
+                android:id="@+id/buttonAgregar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Actualizar Productos"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

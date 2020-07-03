@@ -1,0 +1,11 @@
+
+Zsquid:S2589^"7Remove this expression which always evaluates to "true"(ëí£™ÿÿÿÿÿ8¯êëÙ÷-
+Lsquid:S1481E".Remove this unused "textoChar" local variable.(€êæ¶8¯êëÙ÷-
+wsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(±Çä8¯êëÙ÷-
+Hsquid:S1659"*Declare "tempCustomer" on a separate line.(ë¬‰Ÿ8¯êëÙ÷-
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ú™ïÈøÿÿÿÿ8¯êëÙ÷-
+\squid:S11553">Use isEmpty() to check whether the collection is empty or not.(–šğ—8¯êëÙ÷-
+nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(Ì¥Û‚ıÿÿÿÿ8¯êëÙ÷-
+Gsquid:S1659")Declare "suggestions" on a separate line.(ë¬‰Ÿ8¯êëÙ÷-
+asquid:S2583H"CChange this condition so that it does not always evaluate to "true"(°øÎœ8¯êëÙ÷-
+Ksquid:S1481F".Remove this unused "autoAyuda" local variable.(¨©æ38¯êëÙ÷-

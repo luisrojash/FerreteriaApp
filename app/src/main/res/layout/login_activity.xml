@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageLogo"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:contentDescription="@string/action_settings"
+                android:elevation="120dp"
+                android:src="@mipmap/ic_rojas"
+                app:layout_constraintBottom_toBottomOf="@+id/cardViewImageFarmacias"
+                app:layout_constraintEnd_toEndOf="@+id/cardViewImageFarmacias"
+                app:layout_constraintStart_toStartOf="@+id/cardViewImageFarmacias"
+                app:layout_constraintTop_toTopOf="@+id/cardViewImageFarmacias"
+                tools:targetApi="lollipop" />
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardViewImageFarmacias"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_margin="60dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:background="@color/colorPrimary"
+                android:rotation="-42"
+                android:visibility="gone"
+                app:layout_constraintBottom_toTopOf="@+id/guideLine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view2">
+
+            </androidx.cardview.widget.CardView>
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="#12960000"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/guideLine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.6" />
+
+
+            <EditText
+                android:id="@+id/et_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginRight="32dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/ic_usuario"
+                android:drawableLeft="@drawable/ic_usuario"
+                android:drawablePadding="16dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingStart="6dp"
+                android:paddingLeft="6dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="12dp"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/guideLine" />
+
+            <EditText
+                android:id="@+id/et_clave"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/rounded_edittext"
+                android:drawableStart="@drawable/ic_clave"
+                android:drawableLeft="@drawable/ic_clave"
+                android:drawablePadding="16dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingStart="6dp"
+                android:paddingLeft="6dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="12dp"
+                android:paddingRight="12dp"
+                android:paddingBottom="12dp"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="@+id/et_usuario"
+                app:layout_constraintStart_toStartOf="@+id/et_usuario"
+                app:layout_constraintTop_toBottomOf="@+id/et_usuario" />
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="0dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="42dp"
+                android:layout_marginBottom="8dp"
+                android:background="@color/colorAccent"
+                android:text="Iniciar Sesión"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/et_clave"
+                app:layout_constraintStart_toStartOf="@+id/et_clave"
+                app:layout_constraintTop_toBottomOf="@+id/et_clave" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideLine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view2" />
+
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                android:id="@+id/progressBar"
+                style="@style/SpinKitView.Large.Circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:SpinKit_Color="@color/colorAccent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</layout>
+
+
+

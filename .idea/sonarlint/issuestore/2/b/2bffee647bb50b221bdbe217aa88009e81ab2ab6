@@ -1,0 +1,9 @@
+
+squid:S1186q"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(΅ΫΤ›8›Ζαγχ-
+¤squid:S1186l"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(μΓξΨψÿÿÿÿ8›Ζαγχ-
+lsquid:MaximumInheritanceDepth&"<This class has 6 parents which is greater than 5 authorized.(σΆΌΘ8›Ζαγχ-
+osquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ψε΄΅ÿÿÿÿÿ8›Ζαγχ-
+gsquid:UselessImportCheck"<Remove this unused import 'androidx.annotation.RequiresApi'.(ε„» 8ίσ¤μ.
+]squid:UselessImportCheck"-Remove this unused import 'android.os.Build'.(γΗ¤Ϊύÿÿÿÿ8ίσ¤μ.
+lsquid:UselessImportCheck"<Remove this unused import 'android.content.DialogInterface'.(­›¨ώÿÿÿÿ8ίσ¤μ.
+dsquid:UselessImportCheck"4Remove this unused import 'android.app.AlertDialog'.(ª½ψώόÿÿÿÿ8ίσ¤μ.

@@ -1,0 +1,43 @@
+
+ysquid:S00116<"aRename this field "producto_stock_inicial" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£’€½
+rsquid:S001163"ZRename this field "producto_nombre" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢àÚÑ
+qsquid:S00116="YRename this field "color_color_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‚É»
+fsquid:S00100|"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Éïğ
+jsquid:S00116B"RRename this field "lote_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Äƒ¸
+gsquid:S00100‘"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥É¼Ä
+fsquid:S00100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÕ»Å
+{squid:S00116E"WRename this field "proveedor_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¶øÿÿÿÿ8öº¨Íú-
+rsquid:S00100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µü¬şÿÿÿÿ8ƒñ±ú-
+{squid:S00116D"WRename this field "categoria_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸æüŞøÿÿÿÿ8ÿ“šÍú-
+squid:S00116G"]Rename this field "medida_descripcion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—ğ°óşÿÿÿÿ8«éÁğû-
+zsquid:S001167"]Rename this field "producto_precio_in" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€­Ëùÿÿÿÿ
+xsquid:S00116;"`Rename this field "producto_cod_producto" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¦
+ysquid:S00116F"ZRename this field "producto_minimo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ğ˜…8—®ğ±ú-
+{squid:S001169"^Rename this field "producto_precio_out" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùâ®›ÿÿÿÿÿ
+rsquid:S00100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áú«ˆùÿÿÿÿ8ƒñ±ú-
+wsquid:S00116:"ZRename this field "producto_unidad" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÌ…üşÿÿÿÿ
+ksquid:S00100W"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æşîÅÿÿÿÿÿ
+rsquid:S001165"URename this field "almacen_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òˆúÉüÿÿÿÿ
+ksquid:S00100t"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ½åÈüÿÿÿÿ
+vsquid:S00116@"_Rename this field "material_material_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§“Ûg
+nsquid:S00100€"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Òéİ8ìÔªÍú-
+fsquid:S00100k"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úèÚ
+vsquid:S001164"_Rename this field "producto_descripcion" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ˆÄ)
+ksquid:S00100_"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÓ•·ûÿÿÿÿ
+nsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òœ¬ß8‘êšÍú-
+fsquid:S00100g"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çøü
+ssquid:S001162"VRename this field "producto_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àŠÜ„üÿÿÿÿ
+}squid:S001166"YRename this field "producto_image" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿë×éûÿÿÿÿ8—®ğ±ú-
+rsquid:S00100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´Æ²üÿÿÿÿ8¤Íú-
+ksquid:S00100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šûˆ–ùÿÿÿÿ
+gsquid:S00100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñºçê
+€squid:S00116A"cRename this field "superficie_superficie_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Ğ€çıÿÿÿÿ
+nsquid:S00100¡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”›‡8ÕˆÂğû-
+lsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹ÿæ‚ıÿÿÿÿ
+fsquid:S00100x"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÎ›
+squid:S4144g"aUpdate this method so that its implementation is not identical to "getProducto_image" on line 79.(Çøü8½çñ±ú-
+gsquid:S00100•"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åƒÈß
+vsquid:S00116>"WRename this field "tipologia_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìª¡8ÊúÍú-
+ssquid:S00116?"[Rename this field "medida_medida_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ç®
+lsquid:S00100„"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦£å÷ùÿÿÿÿ
+ksquid:S00100c"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İğûïøÿÿÿÿ

@@ -1,0 +1,7 @@
+
+ysquid:S1450"VRemove the "binding" field and declare it as a local variable in the relevant methods.(ì§¹ûÿÿÿÿ8Ëº˜Ñú-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(©ì‚8¥ÇœÑú-
+Nsquid:S1068"+Remove this unused "binding" private field.(ì§¹ûÿÿÿÿ8¥ÇœÑú-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ˆûò›8¥ÇœÑú-
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Á¥ûúÿÿÿÿ8ÀÒ¶Ğú-
+zsquid:S1450"\Remove the "tipoOperacion" field and declare it as a local variable in the relevant methods.(·Ş«8¥ÇœÑú-

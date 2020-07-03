@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/b2da9f8444128651758719856de579eacff7f387/gson-2.8.2-sources.jar!/com/google/gson/reflect/TypeToken.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/build/generated/source/kapt/debug/pe/farmacias/peruanas/cajeroexpress/dao/ProductosDao_Impl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/build/tmp/kapt3/stubs/debug/pe/farmacias/peruanas/cajeroexpress/dao/CategoriasDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/build/tmp/kapt3/stubs/debug/pe/farmacias/peruanas/cajeroexpress/model/Categoria.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/base/BaseDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/carrito/CarritoActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/dao/CarritoResp.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/dao/CategoriasDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/dao/ProductosDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/dao/UsuarioDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/db/CajeroDB.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/di/AppModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/di/CoreDataModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/di/ViewModelModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/di/activity/ActivityModule.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/di/base/DependencyExtensions.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/di/base/ViewModelFactory.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/login/LoginActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/login/LoginRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/login/LoginViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/login/remote/LoginRemote.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/login/service/LoginResponse.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/login/service/LoginService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/model/Carrito.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/model/Categoria.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/model/Orden.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/model/Productos.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/model/Usuario.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/model/UsuarioDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/principal/productos/ProductosViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/prodcat/ProdCatActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/util/Constantes.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/LEGO-Catalog/app/src/main/java/com/elifox/legocatalog/legoset/data/LegoSetRemoteDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/util/Constantes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/util/CustomViewPager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/CuestioLocalActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/CuestionariosActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/InstanciaActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/PerfilActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/PreguntasActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/RegistroAsistenciaHourActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/adapters/PreguntasPagerAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/fragments/OpcionSimpleFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/fragments/SiNo2Fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/drawable/checkbox_background.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/drawable/custom_rdbutton_background.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/drawable/ic_checked_mifa.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/drawable/ic_rectangle_preguntas.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/drawable/ic_rectangulo.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/drawable/ic_unchecked_mifa.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/drawable/radiobutton_selector.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/drawable/radiobutton_selector_mifa.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/activity_cuestio_local_activity.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/activity_cuestionarios.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/activity_inicio.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/activity_preguntas.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/activity_splash.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/fragment_inicio.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/fragment_opcion_simple.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/fragment_si_no_2.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/item_local.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/item_nuevo.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/layout/item_tipo_estados.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/model/beans/Opcion.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/model/dao/ServiceFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/APIBuscarLocalPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/APILoginPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/APISincronizacionPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/DBInstanciaPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/DBListadoPendientesPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/InstanciaPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/InstanciaPresenterDummy.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/view/views/InstanciaView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermatologiapos/app/src/main/java/com/farmaciasperuanas/dermaapp/carrito/CarritoRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermatologiapos/app/src/main/java/com/farmaciasperuanas/dermaapp/carrito/CarritoViewModel.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermatologiapos/app/src/main/java/com/farmaciasperuanas/dermaapp/db/CarritoDao.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/api/RetrofitInstance.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/base/activity/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/bienvenida/BienvenidaActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/carrusel/CarruselActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/diagnostico/DiagnosticoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/diagnostico/adapter/DiagnosticoAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/diagnostico/opciones/OpcionesActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/diagnostico/opciones/OpcionesViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/diagnostico/opciones/correo/EnviarDiagnosticoDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/dialog/SesionDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/login/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/promociones/adapter/holder/PromocionesHolder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/utils/AppConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/java/pe/farmacias/peruanas/dermotec/utils/SessionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/drawable/ic_fondo_diagnostico.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/drawable/ic_fondo_resultado.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/activity_bienvenida.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/activity_catalogo.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/activity_diagnostico.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/activity_opciones.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/activity_promociones.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/activity_sub_catalogo.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/adaptador_diagnostico_opciones_1.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/diagnostico_simple_head.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/enviar_diagnostico_dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/fragment_resultado.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/item_filtrar_catalogo.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/item_opciones_sub.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/item_promociones_front.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/item_resultados.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/salir_diagnostico_dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/layout/sesion_dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/fps-app-apk-dermotec/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/DemoSDKIZI/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/util/Constantes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/BuscarLocalActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/PreguntasActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/RegistroAsistenciaHourActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/RegistroFotoActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/foto/RegAsistenciaActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/foto/RegMarcacionesActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/activities/foto/RegNuevoUsuarioActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/adapters/ButtonAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/adapters/listener/ButtonListener.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/fragments/FinFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/java/pe/farmacias/peruanas/farmacheckapp/view/fragments/tabs/PendientesFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/res/layout/activity_cuestionarios.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/res/layout/activity_registro_asistencia.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/res/layout/activity_registro_marcaciones.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/app/src/main/res/layout/activity_registro_nuevo_usuario.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/model/dao/ServiceFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/model/ui/AsistenciaUi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/APIEnviadorPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/APIRegNuevoUsuario.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/ApiRegAsistenciaPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/DBListadoPendientesPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/ListadoPendientesPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/RegAsistenciaPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/presenter/RegNuevoUsuarioPresenter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/view/views/RegAsistenciaView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheck/view/views/RegNuevoUsuarioView.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/java/pe/farmacias/peruanas/farmacheckapp/util/ParseJson.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/res/drawable/ic_fin_refrigerio.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/res/drawable/ic_ingreso_asistencia.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/res/drawable/ic_inicio_refrigerio.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Desktop/checklistmvp/farmaciaslib/src/main/res/drawable/ic_salida_asistencia.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/CajeroExpress/app/src/main/java/pe/farmacias/peruanas/cajeroexpress/principal/inicio/InicioRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/FerreteriaApp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/Injection.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/api/RetrofitInstance.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/base/activity/BaseActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/buscador/modelo/BuscarProductosUi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/cambios/CambiosActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/correo/CorreoService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/dao/ColorDao.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/inventario/InventarioActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/inventario/InventarioRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/inventario/InventarioViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/inventario/service/InventarioService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/login/LoginActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/login/service/LoginService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/lote/LoteAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/lote/modelo/LoteUi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/main/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/model/Medida.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/operaciones/OperacionesActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/operaciones/OperacionesRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/operaciones/OperacionesViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/operaciones/adapter/OperacionesAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/operaciones/adapter/holder/OperacionesHolder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/operaciones/dialog/OperaDialog.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/operaciones/model/OperacionesUi.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/operaciones/service/OperacionesResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/operaciones/service/OperacionesService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/PrincipalActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/PrincipalFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/PrincipalRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/PrincipalViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/fragment/MaterialFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/fragment/ProductosFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/fragment/adapter/ProductosAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/fragment/adapter/holder/ProductosHolder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/fragment/model/Productos.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/listelos/ListelosFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/service/PrincipalService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/principal/zocalos/ZocalosFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/ListProductosActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/ListProductosFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/ListProductosRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/ListProductosViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/adapter/ListProductosAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/registro/RegProductosActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/registro/RegProductosFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/registro/RegProductosRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/registro/RegProductosViewModel.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/registro/adapter/ArrayAdapterDefault.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/registro/adapter/SpinnerDefault.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/registro/service/RegProductosService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/registro/ui/ModelDefault.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/service/DefaultResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/productos/service/ListProductosService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/registroUser/RegistroUserActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/registroUser/RegistroUserFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/registroUser/service/RegistroUserService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/splash/SplashActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/splash/SplashRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/splash/service/SplashService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/util/AppConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/util/MyFragmentAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/util/SessionManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/ferreteriaapp/util/Utilidades.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_cambios.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_entrada.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_list_productos.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_reg_productos.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/buscar_item_default.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/custom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/custom_spinner_default.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/inventario_activity.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_operaciones.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_productos.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/listelos_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/material_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/opera_dialog.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/principal_activity.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/productos_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/registro_user_activity.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/zocalos_fragment.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pagerlayoutmanager/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pagerlayoutmanager/src/main/java/com/gcssloop/widget/PagerConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pagerlayoutmanager/src/main/java/com/gcssloop/widget/PagerGridLayoutManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pagerlayoutmanager/src/main/java/com/gcssloop/widget/PagerGridSmoothScroller.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pagerlayoutmanager/src/main/java/com/gcssloop/widget/PagerGridSnapHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ferrojas/app/src/main/java/com/ferreteriarojas/inventario/productList/ProductListActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ferrojas/app/src/main/java/com/ferreteriarojas/inventario/productos/ProductosActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ferrojas/app/src/main/java/com/ferreteriarojas/inventario/productos/ProductosPresenterImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ferrojas/app/src/main/java/com/ferreteriarojas/inventario/productos/registro/dataSource/local/RegistroProdLocal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ferrojas/app/src/main/res/layout/custom_spinner_default.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/ProyectosAndroid/optitrack/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/ProyectosAndroid/optitrack/app/src/main/java/com/olvati/optitrack/entrega/view/fragment/DistribucionHistoryFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/ProyectosAndroid/optitrack/app/src/main/java/com/olvati/optitrack/recojo/view/activity/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/ProyectosAndroid/optitrack/app/src/main/java/com/olvati/optitrack/recojo/view/fragment/RecojoFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

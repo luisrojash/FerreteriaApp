@@ -1,0 +1,7 @@
+
+ysquid:S1450"VRemove the "binding" field and declare it as a local variable in the relevant methods.(‰ğªÄûÿÿÿÿ8ŞúÖåŞ-
+Isquid:S1068",Remove this unused "mColumns" private field.(®Úœ08…°×åŞ-
+Psquid:S1068"2Remove this unused "mLayoutManager" private field.(Â¾8…°×åŞ-
+isquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(ìÙŸ’8æ¦ÓåŞ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÿæĞ“8·îÔåŞ-
+Lsquid:S1068")Remove this unused "mRows" private field.(™ıÉÿÿÿÿÿ8…°×åŞ-
